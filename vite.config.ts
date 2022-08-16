@@ -19,6 +19,7 @@ export default defineConfig({
   },
   // 服务配置
   server:{
+    host: '127.0.0.1',
     port:3000,// 端口号
     open:true,// 自动在浏览器打开
     https:false,// 是否开启 https
